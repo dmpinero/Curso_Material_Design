@@ -4,9 +4,9 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Material Design Lite</title>
-	<link href="css/material.min.css" rel="stylesheet">
+	<link href="css/material.min.colors.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<script src="js/material.min.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
 </head>
 <body>
 	<!-- Always shows a header, even in smaller screens. -->
@@ -26,18 +26,15 @@
 	      </nav>
 	    </div>
 	  </header>
-	  <div class="mdl-layout__drawer">
-	    <span class="mdl-layout-title">Title</span>
-	    <nav class="mdl-navigation">
-	      <a class="mdl-navigation__link" href="">Link</a>
-	      <a class="mdl-navigation__link" href="">Link</a>
-	      <a class="mdl-navigation__link" href="">Link</a>
-	      <a class="mdl-navigation__link" href="">Link</a>
-	    </nav>
-	  </div>
-	  <main class="mdl-layout__content">
-	    <div class="page-content"><!-- Your content goes here --></div>
-	  </main>
-	</div>
+
+		<!-- Agregar botón con color primario (Indigo) -->
+		<div class="mdl-grid">
+			<button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">Presiona color primario</button>
+			<button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent">Presiona color secundario</button>			
+		</div>
+
+		<h1>Esto es un texto h1</h1>
+
+	<script src="js/material.min.js" type="text/javascript"></script>
 </body>
 </html>
