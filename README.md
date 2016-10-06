@@ -13,3 +13,10 @@ Ejemplo 3
 ---------
 Creación de Layout
 Creación de pestañas (tabs)
+
+Ejemplo 4
+---------
+Cabecera (header) fija
+    Elementos de navegación en cabecera (enlaces)
+Menú lateral
+    Elementos de navegación en menú lateral (enlaces)

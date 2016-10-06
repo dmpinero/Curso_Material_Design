@@ -9,33 +9,36 @@
 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
 </head>
 <body>
-	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--fixed-tabs">
+	<section class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
 		<header class="mdl-layout__header">
 			<div class="mdl-layout__header-row">
-				<span class="mdl-layout-title">Ejemplo de título</span>
-			</div>
+				<!-- Título -->
+				<span class="mdl-layout-title">
+					Título de prueba
+				</span>
 
-			<!-- Tabs -->
-			<div class="mdl-layout__tab-bar">
-				<a href="#tab-1" class="mdl-layout__tab is-active">Link 1</a>
-				<a href="#tab-2" class="mdl-layout__tab">Link 2</a>
-				<a href="#tab-3" class="mdl-layout__tab">Link 3</a>
+				<!-- Alinea los elementos de navegación a la derecha -->
+				<div class="mdl-layout-spacer"></div>
+
+				<!-- Navegación -->
+				<nav class="mdl-navigation">
+					<a href="" class="mdl-navigation__link">Link</a>
+					<a href="" class="mdl-navigation__link">Link</a>
+					<a href="" class="mdl-navigation__link">Link</a>
+				</nav>
 			</div>
 		</header>
 
-		<main class="mdl-layout__content">
-			<!-- Crear una sección por cada pestaña -->
-			<section class="mdl-layout__tab-panel" id="tab-1">
-				<div class="page-content">Tabs 1</div>
-			</section>
-			<section class="mdl-layout__tab-panel" id="tab-2">
-				<div class="page-content">Tabs 2</div>
-			</section>
-			<section class="mdl-layout__tab-panel" id="tab-3">
-				<div class="page-content">Tabs 3</div>
-			</section>
-		</main>
-	</div>
+		<!-- Menú lateral -->
+		<div class="mdl-layout__drawer">
+			<span class="mdl-layout-title">Título de enlaces</span>
+				<nav class="mdl-navigation">
+					<a href="" class="mdl-navigation__link">Enlace 1</a>
+					<a href="" class="mdl-navigation__link">Enlace 2</a>
+					<a href="" class="mdl-navigation__link">Enlace 3<a>	
+				</nav>
+		</div>
+	</section>
 
 	<script src="js/material.min.js" type="text/javascript"></script>
 </body>
