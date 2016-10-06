@@ -20,3 +20,7 @@ Cabecera (header) fija
     Elementos de navegación en cabecera (enlaces)  
 Menú lateral  
     Elementos de navegación en menú lateral (enlaces)  
+
+Ejemplo 5  
+---------  
+Grid
