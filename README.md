@@ -28,4 +28,10 @@ Grid
 Ejemplo 6  
 ---------  
 Botones e iconos
-    Botones planos (flat) y elevados (raises)
+    Botones planos (flat), elevados (raises) y redondos (fab)
+    Nota: El botón "fab" con --colored no coge el color primario sino el secundario. Esto se debe a que según google debe ser más prominente que el resto del UI, por eso toma el color del acento por defecto. Si se desea que adopte el color primario se debe utilizar --primary
+
+Ejemplo 7  
+---------  
+Botones con iconos  
+Efecto Ripple 
