@@ -24,3 +24,8 @@ Menú lateral
 Ejemplo 5  
 ---------  
 Grid
+
+Ejemplo 6  
+---------  
+Botones e iconos
+    Botones planos (flat) y elevados (raises)
