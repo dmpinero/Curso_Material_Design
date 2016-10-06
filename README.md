@@ -8,3 +8,8 @@ Color secundario por defecto: Rosa (Pink)
 
 Modificación de los colores primario y secundario
 Inclusión de google fonts (Roboto Font)
+
+Ejemplo 3
+---------
+Creación de Layout
+Creación de pestañas (tabs)
