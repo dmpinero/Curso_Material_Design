@@ -2,43 +2,55 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Material Design Lite</title>
 	<link href="css/material.min.colors.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
 </head>
+
+<style type="text/css" media="screen">
+	.mdl-cell {
+		background-color: grey;
+		color: white;
+	}
+	.section-grid {
+		max-width: 1044px;
+	}
+	.primero {
+		background-color: red;
+	}
+</style>
+
 <body>
-	<section class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-		<header class="mdl-layout__header">
-			<div class="mdl-layout__header-row">
-				<!-- Título -->
-				<span class="mdl-layout-title">
-					Título de prueba
-				</span>
+	<div class="section-grid mdl-grid">
+		<div class="mdl-cell mdl-cell--1-col">1</div>
+		<div class="mdl-cell mdl-cell--1-col">1</div>
+		<div class="mdl-cell mdl-cell--1-col">1</div>
+		<div class="mdl-cell mdl-cell--1-col">1</div>
+		<div class="mdl-cell mdl-cell--1-col">1</div>
+		<div class="mdl-cell mdl-cell--1-col">1</div>
+		<div class="mdl-cell mdl-cell--1-col">1</div>
+		<div class="mdl-cell mdl-cell--1-col">1</div>
+		<div class="mdl-cell mdl-cell--1-col">1</div>
+		<div class="mdl-cell mdl-cell--1-col">1</div>
+		<div class="mdl-cell mdl-cell--1-col">1</div>
+		<div class="mdl-cell mdl-cell--1-col">1</div>
+	</div>
 
-				<!-- Alinea los elementos de navegación a la derecha -->
-				<div class="mdl-layout-spacer"></div>
+	<div class="section-grid mdl-grid">
+		<div class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet">8 Tablet</div>
+		<div class="mdl-cell mdl-cell--4-col mdl-cell--6-col-tablet">4 Tablet</div>
+		<div class="mdl-cell mdl-cell--2-col mdl-cell--4-col-phone">Teléfono</div>
+	</div>
 
-				<!-- Navegación -->
-				<nav class="mdl-navigation">
-					<a href="" class="mdl-navigation__link">Link</a>
-					<a href="" class="mdl-navigation__link">Link</a>
-					<a href="" class="mdl-navigation__link">Link</a>
-				</nav>
-			</div>
-		</header>
-
-		<!-- Menú lateral -->
-		<div class="mdl-layout__drawer">
-			<span class="mdl-layout-title">Título de enlaces</span>
-				<nav class="mdl-navigation">
-					<a href="" class="mdl-navigation__link">Enlace 1</a>
-					<a href="" class="mdl-navigation__link">Enlace 2</a>
-					<a href="" class="mdl-navigation__link">Enlace 3<a>	
-				</nav>
-		</div>
-	</section>
+	<div class="mdl-grid">
+		<div class="primero mdl-cell mdl-cell--3-col">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias sapiente numquam accusamus, necessitatibus debitis esse, vitae cumque at nobis cum ducimus eaque? Sunt, optio placeat vel pariatur quibusdam voluptas, culpa amet cumque, voluptates architecto veritatis deleniti itaque quas, error fugiat!</div>
+		<div class="mdl-cell mdl-cell--3-col">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro quaerat pariatur reprehenderit quisquam recusandae similique adipisci atque explicabo deleniti reiciendis dolore molestias quod doloremque obcaecati accusantium, enim libero, suscipit aspernatur nobis animi. Et, reiciendis, mollitia quasi distinctio saepe ipsam ab.</div>
+		<div class="primero mdl-cell mdl-cell--3-col">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut maiores atque nam. Quae at velit expedita temporibus facere, optio numquam saepe, ratione impedit dolore id ipsa tenetur. A doloremque mollitia odit possimus fugit officia repellat dolorum similique numquam quis, libero!</div>
+		<div class="mdl-cell mdl-cell--3-col">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto eaque voluptatibus doloribus, labore explicabo, velit porro alias temporibus nihil quaerat illum mollitia ducimus. Reiciendis perspiciatis nesciunt nisi officia nulla saepe ex hic. Aperiam architecto maiores voluptas nostrum minima, ut excepturi!</div>
+	</div>
 
 	<script src="js/material.min.js" type="text/javascript"></script>
 </body>
