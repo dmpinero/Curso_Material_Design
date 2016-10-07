@@ -53,3 +53,7 @@ Menú contextual asociado a botón compartir
 Ejemplo 11
 ----------
 Listas
+
+Ejemplo 12  
+----------  
+Footer  
