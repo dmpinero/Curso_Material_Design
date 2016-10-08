@@ -1,0 +1,17 @@
+.cf-color {
+	background-color: black;
+}
+
+.cf-logo {
+	width: 150px;
+	height: 50px;
+}
+
+.nav-link-sup {
+	font-weight: 700;
+	font-size: 16px;
+}
+
+.mdl-layout__header-row .mdl-navigation__link:hover {
+	border-bottom: solid 4px #8bc34a;
+}
